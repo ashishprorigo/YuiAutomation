@@ -1,0 +1,703 @@
+{"form": {
+  "children": [{
+    "children": [
+      {
+        "children": [{
+          "children": [{
+            "children": [
+              {
+                "children": [{
+                  "children": [{
+                    "attributes": {"class": "text-uppercase"},
+                    "tag": "h5",
+                    "text": "{{applbl \"CP_INFO\"}}"
+                  }],
+                  "attributes": {"class": "col-xs-12 pad5-top collapsetabs border"},
+                  "tag": "div"
+                }],
+                "attributes": {
+                  "data-toggle": "collapse",
+                  "role": "button",
+                  "aria-controls": "collapseCoreInspectInfo",
+                  "tabindex": "-1",
+                  "aria-expanded": "false",
+                  "href": "#collapseCoreInspectInfo",
+                  "class": "col-xs-12 clearfix no-padding"
+                },
+                "tag": "a"
+              },
+              {
+                "children": [{
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "attributes": {"class": ""},
+                          "tag": "label",
+                          "text": "{{applbl 'CORE_PG'}}"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "name": "categoryCode",
+                                "id": "categoryCode",
+                                "class": ""
+                              },
+                              "tag": "p",
+                              "text": "{{categoryCode}}"
+                            },
+                            {
+                              "attributes": {
+                                "name": "categoryCode",
+                                "id": "categoryCode",
+                                "class": ""
+                              },
+                              "tag": "p",
+                              "text": "{{categoryCode}}"
+                            },
+                            {
+                              "attributes": {
+                                "data-mize_required\"": "",
+                                "name": "categoryCode",
+                                "data-mize_required_nessage-\"cp001\"": "",
+                                "id": "categoryCode",
+                                "type": "text",
+                                "class": "form-control required field size-validate validateOnFly severity-5",
+                                "value": "{{categoryCode}}"
+                              },
+                              "tag": "input",
+                              "text": ""
+                            }
+                          ],
+                          "attributes": {"class": "controls"},
+                          "tag": "div"
+                        }
+                      ],
+                      "attributes": {"class": "cc-field"},
+                      "tag": "div"
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": {"class": ""},
+                          "tag": "label",
+                          "text": "{{applbl 'CORE_TYP'}}"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "name": "categoryType",
+                                "id": "categoryType",
+                                "class": ""
+                              },
+                              "tag": "p",
+                              "text": "{{categoryType}}"
+                            },
+                            {
+                              "attributes": {
+                                "name": "categoryType",
+                                "id": "categoryType",
+                                "type": "text",
+                                "data-mize_required_message": "CP002",
+                                "class": "form-control required-field mize-validate validateOnFly severity-5",
+                                "value": "{{categoryType}}",
+                                "data-mize_required-\"\"": ""
+                              },
+                              "tag": "input",
+                              "text": ""
+                            }
+                          ],
+                          "attributes": {"class": "controls"},
+                          "tag": "div"
+                        }
+                      ],
+                      "attributes": {"class": "cc-field"},
+                      "tag": "div"
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": {"class": ""},
+                          "tag": "label",
+                          "text": "{{applbl 'CNTRY'}}"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "id": "extension_extn@iCode",
+                                "class": "CoreProgramCountry"
+                              },
+                              "tag": "p",
+                              "text": "{{@catalogoptions extension.extn@iCode fieldId=\"extension_extn01Code\" asOptions='false' catalogName='CoreProgramCountry'}}{{/catalogoptions}}"
+                            },
+                            {
+                              "attributes": {
+                                "empty@ption": "true",
+                                "data-mize_required": "",
+                                "select": "",
+                                "extension_extn@icode\"": "",
+                                "cataloglane": "CoreProgramCountry",
+                                "name": "extension_extn01Code",
+                                "}}{{": "",
+                                "id": "extension_extn@iCode",
+                                "message-\"cp003\"": "",
+                                "<": "",
+                                "class": "form-contr {{#catalogoptions extension.extn@iCode fieldid=",
+                                "catalogoptions}}": ""
+                              },
+                              "tag": "select",
+                              "text": "{{/if}} {{applbl 'ADRS_CD'}} {{#if @viewonly}} {{extension.extn02Code}} {{else}}"
+                            },
+                            {
+                              "attributes": {
+                                "name": "extension_extn@2Code",
+                                "id": "extension_extn@2Code",
+                                "type": "text",
+                                "class": "",
+                                "value": "{{extension.extn@2Code}}"
+                              },
+                              "tag": "input",
+                              "text": ""
+                            }
+                          ],
+                          "attributes": {"class": "controls"},
+                          "tag": "div"
+                        }
+                      ],
+                      "attributes": {"class": "cc-field"},
+                      "tag": "div"
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": {"class": ""},
+                          "tag": "label",
+                          "text": "{{applbl 'SUPP_CD\"}}"
+                        },
+                        {
+                          "children": [
+                            {
+                              "attributes": {
+                                "name": "extension_extn@3Code",
+                                "id": "extension_extn@3Code",
+                                "class": ""
+                              },
+                              "tag": "p",
+                              "text": "{{extension.extn03Code}}"
+                            },
+                            {
+                              "children": [
+                                {
+                                  "attributes": {
+                                    "name": "extension_extn@3Code",
+                                    "id": "extension_extn03Code",
+                                    "type": "text",
+                                    "value": "{{extension.extn03Code}}",
+                                    "class": "form-control supplierId"
+                                  },
+                                  "tag": "input",
+                                  "text": ""
+                                },
+                                {
+                                  "children": [{
+                                    "children": [{
+                                      "attributes": {"class": "icon-search"},
+                                      "tag": "i",
+                                      "text": ""
+                                    }],
+                                    "attributes": {
+                                      "tabindex": "-1",
+                                      "type": "button",
+                                      "class": "btn btn-default"
+                                    },
+                                    "tag": "button"
+                                  }],
+                                  "attributes": {"class": "input-group-btn gs_lookup_businessentity"},
+                                  "tag": "span"
+                                }
+                              ],
+                              "attributes": {"class": "input-group yui3-skin-sam"},
+                              "tag": "div"
+                            }
+                          ],
+                          "attributes": {"class": "controls"},
+                          "tag": "div"
+                        }
+                      ],
+                      "attributes": {"class": "cc-field"},
+                      "tag": "div"
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": {"class": ""},
+                          "tag": "label",
+                          "text": "{{applbl 'SUP_SUF\"}}"
+                        },
+                        {
+                          "children": [{
+                            "attributes": {
+                              "name": "extension_extnD4Code",
+                              "id": "extension_extn04Code",
+                              "class": ""
+                            },
+                            "tag": "p",
+                            "text": "{{extension.extn@4Code}}"
+                          }],
+                          "attributes": {"class": "controls"},
+                          "tag": "div"
+                        }
+                      ],
+                      "attributes": {"class": "cc-field"},
+                      "tag": "div"
+                    },
+                    {
+                      "children": [
+                        {
+                          "attributes": {"class": ""},
+                          "tag": "label",
+                          "text": "{{applbl 'SUP_NM'}}"
+                        },
+                        {
+                          "children": [{
+                            "attributes": {
+                              "name": "extension_extn05Code",
+                              "id": "extension_extnesCode",
+                              "class": ""
+                            },
+                            "tag": "p",
+                            "text": "{{extension.extn05Code}}"
+                          }],
+                          "attributes": {"class": "controls"},
+                          "tag": "div"
+                        }
+                      ],
+                      "attributes": {"class": "cc-field"},
+                      "tag": "div"
+                    }
+                  ],
+                  "attributes": {"class": "col-sm-12 errorText_overflow no-margin no-padding clearfix"},
+                  "tag": "div"
+                }],
+                "attributes": {
+                  "id": "collapseCoreInspectInfo",
+                  "class": "panel-collapse collapse in border"
+                },
+                "tag": "div"
+              }
+            ],
+            "attributes": {"class": "col-xs-12 print-halfbox no-padding clearfix pad10-bottom"},
+            "tag": "div"
+          }],
+          "attributes": {"class": "col-sm-12 no-padding return-info-form"},
+          "tag": "div"
+        }],
+        "attributes": {"class": "col-sm-12 clearfix no-padding"},
+        "tag": "div"
+      },
+      {
+        "children": [
+          {
+            "children": [{
+              "children": [{
+                "attributes": {"class": "text-uppercase"},
+                "tag": "h5",
+                "text": "{{applbl 'INSPECT_CHRG'}}"
+              }],
+              "attributes": {"class": "col-xs-12 pads-top collapsetabs border-botton"},
+              "tag": "div"
+            }],
+            "attributes": {
+              "data-toggle": "collapse",
+              "role": "button",
+              "aria-controls": "srAdditional comments",
+              "tabindex": "-1",
+              "aria-expanded": "false",
+              "href": "#srAdditionalcomments",
+              "class": "col-xs-12 clearfix no-padding"
+            },
+            "tag": "a"
+          },
+          {
+            "children": [
+              {
+                "children": [{
+                  "children": [
+                    {
+                      "children": [{
+                        "attributes": {"class": "icon-plus2"},
+                        "tag": "i",
+                        "text": ""
+                      }],
+                      "attributes": {
+                        "id": "addInspectCharge",
+                        "class": "btn no-padding marg10-top addInspectCharge"
+                      },
+                      "tag": "a"
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [{
+                            "children": [
+                              {
+                                "children": [{
+                                  "attributes": {
+                                    "tabindex": "-1",
+                                    "name": "deleteAllAssociatedClaim",
+                                    "id": "deleteAllAssociatedClain",
+                                    "type": "checkbox"
+                                  },
+                                  "tag": "input",
+                                  "text": ""
+                                }],
+                                "attributes": {"class": "center minwidth-50"},
+                                "tag": "th"
+                              },
+                              {
+                                "attributes": {"class": "padio-left left minwidth-150 hidden"},
+                                "tag": "th",
+                                "text": "{{applbl 'CORE_PG'}}"
+                              },
+                              {
+                                "attributes": {"class": "padie-left left minwidth-150"},
+                                "tag": "th",
+                                "text": "{{applbl ' ADRS_CD}}"
+                              },
+                              {
+                                "attributes": {"class": "pad10-left left minwidth-150"},
+                                "tag": "th",
+                                "text": "{{applbl 'UOM'}}"
+                              },
+                              {
+                                "attributes": {"class": "pad10-left left minwidth-150"},
+                                "tag": "th",
+                                "text": "{{applbl 'FREI INSPCT_CRG'}}"
+                              },
+                              {
+                                "attributes": {"class": "pad10-left left minwidth-150"},
+                                "tag": "th",
+                                "text": "((applbi 'CURR_CD'))"
+                              }
+                            ],
+                            "attributes": {},
+                            "tag": "tr"
+                          }],
+                          "attributes": {},
+                          "tag": "thead"
+                        },
+                        {
+                          "children": [{
+                            "children": [
+                              {
+                                "children": [{
+                                  "attributes": {
+                                    "name": "deleteAssociatedClaimCheckBox",
+                                    "id": "deleteAssociatedClaimCheckBox",
+                                    "type": "checkbox"
+                                  },
+                                  "tag": "input",
+                                  "text": ""
+                                }],
+                                "attributes": {},
+                                "tag": "td"
+                              },
+                              {
+                                "children": [{
+                                  "children": [{
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "id": "extensionList_{{@index}}_extn05Code",
+                                          "class": ""
+                                        },
+                                        "tag": "p",
+                                        "text": "{{extn@SCode}}"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "name": "extensiontist_{{@index}}_extn05Code",
+                                          "id": "extensionList_{{@index}}_extn@SCode",
+                                          "type": "text",
+                                          "value": "{{extn05Code}}",
+                                          "class": "form-control"
+                                        },
+                                        "tag": "input",
+                                        "text": ""
+                                      }
+                                    ],
+                                    "attributes": {"class": "controls"},
+                                    "tag": "div"
+                                  }],
+                                  "attributes": {"class": "cc-field cc-field-12 control-group"},
+                                  "tag": "div"
+                                }],
+                                "attributes": {"class": "pad10-left hidden"},
+                                "tag": "td"
+                              },
+                              {
+                                "children": [{
+                                  "children": [{
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "id": "extensionList_{{@index}}_extn@1Code",
+                                          "class": ""
+                                        },
+                                        "tag": "p",
+                                        "text": "{{extn01Code}}"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "name": "extensionList_((@Index))_extn01Code",
+                                          "id": "extensionList_((@index))_extn01Code",
+                                          "type": "text",
+                                          "value": "{{extn01Code}}",
+                                          "class": "form-control"
+                                        },
+                                        "tag": "input",
+                                        "text": ""
+                                      }
+                                    ],
+                                    "attributes": {"class": "controls"},
+                                    "tag": "div"
+                                  }],
+                                  "attributes": {"class": "cc-field cc-field-12 control-group"},
+                                  "tag": "div"
+                                }],
+                                "attributes": {"class": "pad10-left"},
+                                "tag": "td"
+                              },
+                              {
+                                "children": [{
+                                  "children": [{
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "extensionlist_((@index))_extn02code\"": "",
+                                          "class": " id="
+                                        },
+                                        "tag": "p",
+                                        "text": "{{extn02Code}}"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "name": "extensionList_((@Index))_extn02Code",
+                                          "form-control\"": "",
+                                          "id": "extensionList_{{@index}}_extn@2Code",
+                                          "type": "text",
+                                          "value": "{{extn02code}} class="
+                                        },
+                                        "tag": "input",
+                                        "text": ""
+                                      }
+                                    ],
+                                    "attributes": {"class": "controls"},
+                                    "tag": "div"
+                                  }],
+                                  "attributes": {"class": "cc-field cc-field-12 control-group"},
+                                  "tag": "div"
+                                }],
+                                "attributes": {"class": "pad10-left"},
+                                "tag": "td"
+                              },
+                              {
+                                "children": [{
+                                  "children": [{
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "id": "extensionList_{{@index}}_extne Code",
+                                          "class": ""
+                                        },
+                                        "tag": "p",
+                                        "text": "{{extn03Code}}"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "name": "extensionList_{{@index}}_extn03Code",
+                                          "isnumberonly": "",
+                                          "form-control\"": "",
+                                          "id": "extensionList_{{@index}}_extn03Code",
+                                          "type": "text",
+                                          "value": "{{_extn03Code}} class="
+                                        },
+                                        "tag": "input",
+                                        "text": ""
+                                      }
+                                    ],
+                                    "attributes": {"class": "controls"},
+                                    "tag": "div"
+                                  }],
+                                  "attributes": {"class": "cc-field cc-field-12 control-group"},
+                                  "tag": "div"
+                                }],
+                                "attributes": {"class": "pad10-left"},
+                                "tag": "td"
+                              },
+                              {
+                                "children": [{
+                                  "children": [{
+                                    "children": [
+                                      {
+                                        "attributes": {
+                                          "id": "extensionList_{{@index}}_extn@Code",
+                                          "class": ""
+                                        },
+                                        "tag": "p",
+                                        "text": "{{extnB4Code}}"
+                                      },
+                                      {
+                                        "attributes": {
+                                          "name": "extensionList_{{@index}}_extn04Code",
+                                          "id": "extensionList_{{@index}}_extn04Code",
+                                          "type": "text",
+                                          "value": "{{extn04Code}}",
+                                          "class": "form-control"
+                                        },
+                                        "tag": "input",
+                                        "text": ""
+                                      }
+                                    ],
+                                    "attributes": {"class": "controls"},
+                                    "tag": "div"
+                                  }],
+                                  "attributes": {"class": "cc-field cc-field-12 control-group"},
+                                  "tag": "div"
+                                }],
+                                "attributes": {"class": "pad10-left"},
+                                "tag": "td"
+                              }
+                            ],
+                            "attributes": {
+                              "data-index": "{{@index}}",
+                              "id": "releRow",
+                              "class": "center minwidth-50 roleRow"
+                            },
+                            "tag": "tr"
+                          }],
+                          "attributes": {},
+                          "tag": "tbody"
+                        }
+                      ],
+                      "attributes": {"class": "table table-striped cc-product-table no-margin"},
+                      "tag": "table"
+                    }
+                  ],
+                  "attributes": {"class": "table-responsive table-bordered scrollh no-padding clearfix"},
+                  "tag": "div"
+                }],
+                "attributes": {"class": "clearfix"},
+                "tag": "div"
+              },
+              {
+                "children": [{
+                  "children": [{
+                    "attributes": {"class": "icon-cross"},
+                    "tag": "i",
+                    "text": ""
+                  }],
+                  "attributes": {
+                    "index": "",
+                    "id": "deleteAssociatedClain",
+                    "data-terms": "",
+                    "class": "btn marg20-top pad10-left no-padding"
+                  },
+                  "tag": "a"
+                }],
+                "attributes": {"class": "col-xs-12 clearfix no-padding form-group"},
+                "tag": "div"
+              },
+              {
+                "children": [{
+                  "children": [{
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "attributes": {},
+                            "tag": "option",
+                            "text": "1"
+                          },
+                          {
+                            "attributes": {},
+                            "tag": "option",
+                            "text": "5"
+                          },
+                          {
+                            "attributes": {},
+                            "tag": "option",
+                            "text": "10"
+                          },
+                          {
+                            "attributes": {},
+                            "tag": "option",
+                            "text": "25"
+                          },
+                          {
+                            "attributes": {},
+                            "tag": "option",
+                            "text": "50"
+                          }
+                        ],
+                        "attributes": {
+                          "tabindex": "0",
+                          "name": "addtischargeCount",
+                          "id": "addInspChargeCount",
+                          "class": "form-control additischarges"
+                        },
+                        "tag": "select"
+                      },
+                      {
+                        "children": [{
+                          "children": [{
+                            "attributes": {"class": "icon-plus2"},
+                            "tag": "i",
+                            "text": ""
+                          }],
+                          "attributes": {
+                            "tabindex": "0",
+                            "id": "addInspect Charge",
+                            "type": "button",
+                            "class": "btn btn-primary"
+                          },
+                          "tag": "button"
+                        }],
+                        "attributes": {"class": "input-group-btn"},
+                        "tag": "span"
+                      }
+                    ],
+                    "attributes": {"class": "col-sm-12 col-xs-12 no-padding input-group pull-right pad10-bottom margt10-top"},
+                    "tag": "div"
+                  }],
+                  "attributes": {"class": "form-group col-sm-2 pad5-top no-padding pull-right pad15-right"},
+                  "tag": "div"
+                }],
+                "attributes": {"class": "col-sm-12 clearfix no-padding"},
+                "tag": "div"
+              }
+            ],
+            "attributes": {
+              "id": "srAdditionalcomments",
+              "class": "col-sm-12 panel-collapse collapse in no-margin pad15-top pad15-botton no-padding clearfix"
+            },
+            "tag": "div"
+          }
+        ],
+        "attributes": {"class": "col-sm-12 mb-no-padding marg10-bottom no-padding clearfix"},
+        "tag": "div"
+      }
+    ],
+    "attributes": {"class": "col-sm-12 col-md-12 col-xs-12 clearfix no-padding"},
+    "tag": "div"
+  }],
+  "attributes": {
+    "role": "form",
+    "id": "return-info-form",
+    "class": "form-horizontal"
+  },
+  "tag": "form"
+}}
